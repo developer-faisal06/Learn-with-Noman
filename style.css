@@ -31,3 +31,34 @@ h1{
     left: -5px;
     background-size: 100% 100%;
 }
+
+@media screen and (max-width:767px) {
+    /* .course-img{
+        text-align: center;
+    }
+    .course-img img{
+        width: 95%;
+        max-width: 400px !important;
+        height: 300px;
+    } */
+    .mobile-carousel-caption{
+        position: absolute;
+        bottom: -10px;
+        
+        
+    }
+    .carousel-control-next, .carousel-control-prev {
+      
+        width: 8%;
+    }
+}
+@media screen and (max-width:768px) {
+    .course-img{
+        text-align: center;
+    }
+    .course-img img{
+        width: 95%;
+        max-width: 400px !important;
+        height:auto;
+    }
+}
