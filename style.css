@@ -32,6 +32,7 @@ h1{
     background-size: 100% 100%;
 }
 
+/* for mobile  */
 @media screen and (max-width:767px) {
     /* .course-img{
         text-align: center;
@@ -54,6 +55,8 @@ h1{
         display: none;
     }
 }
+
+/* for tablet  */
 @media screen and (max-width:768px) {
     .course-img{
         text-align: center;
