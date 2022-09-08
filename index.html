@@ -8,8 +8,8 @@
     <script src="https://kit.fontawesome.com/06760b9e1b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <!-- Google font  -->
-        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <!-- Google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -41,10 +41,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                       
+
                     </ul>
                     <div class="d-flex" role="search">
-                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                        <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#register-modal">Register </button>
+
                     </div>
                 </div>
             </div>
@@ -53,7 +54,7 @@
     <main>
         <section id="slider" class="container">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-               
+
                 <div class="carousel-inner">
                     <div class="carousel-item active " data-bs-interval="1000">
                         <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
@@ -100,12 +101,15 @@
                         <div class="card mb-3">
                             <div class="row">
                                 <div class="col-md-4  course-img  p-0">
-                                    <img src="./images/course/course-1.png" class="img-fluid   course-img-center rounded-start" alt="...">
+                                    <img src="./images/course/course-1.png"
+                                        class="img-fluid   course-img-center rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8 ">
                                     <div class="card-body">
                                         <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                        <p class="card-text">The five main principles of UX design. There are many important principles within UX design but to simplify things a bit, we've ...
+                                        <p class="card-text">The five main principles of UX design. There are many
+                                            important principles within UX design but to simplify things a bit, we've
+                                            ...
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
@@ -123,7 +127,8 @@
                                 <div class="col-md-8 ">
                                     <div class="card-body">
                                         <h5 class="card-title">Javascript Basic to advanced</h5>
-                                        <p class="card-text">JavaScript is not something that can be aced in just two weeks. But, it can be done in just three months! Most employers will be...
+                                        <p class="card-text">JavaScript is not something that can be aced in just two
+                                            weeks. But, it can be done in just three months! Most employers will be...
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
@@ -143,7 +148,8 @@
                                 <div class="col-md-8 ">
                                     <div class="card-body">
                                         <h5 class="card-title">Fullstack Web Development</h5>
-                                        <p class="card-text">A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS to.
+                                        <p class="card-text">A full stack web developer is a person who can develop both
+                                            client and server software. In addition to mastering HTML and CSS to.
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
@@ -161,7 +167,8 @@
                                 <div class="col-md-8 ">
                                     <div class="card-body">
                                         <h5 class="card-title">Digital Marketing</h5>
-                                        <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers...
+                                        <p class="card-text">Digital marketing, also called online marketing, is the
+                                            promotion of brands to connect with potential customers...
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
@@ -181,7 +188,8 @@
                                 <div class="col-md-8 ">
                                     <div class="card-body">
                                         <h5 class="card-title">Photography Basic Rules</h5>
-                                        <p class="card-text">There are seven basic elements of photographic art: line, shape, form, texture, color, size, and depth
+                                        <p class="card-text">There are seven basic elements of photographic art: line,
+                                            shape, form, texture, color, size, and depth
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
@@ -199,7 +207,8 @@
                                 <div class="col-md-8 ">
                                     <div class="card-body">
                                         <h5 class="card-title">Motion Graphics</h5>
-                                        <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation or digital footage which create the illusion of motion or rotation
+                                        <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation
+                                            or digital footage which create the illusion of motion or rotation
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
@@ -226,7 +235,10 @@
                     <div class="col-md-6 d-flex flex-column justify-content-center align-content-center">
                         <div class="ref-content m-4 ">
                             <h1 class="ref-title">Importance of elearning in education</h1>
-                            <p>TE-Learning consist of teaching can be based in or out of the Classrooms, the use of computers and the Internet...E-learning definition is defined as providing Training and development to the Students/Employees through various Electronic media such as the Internet, audio, video, etc <br> <br>
+                            <p>TE-Learning consist of teaching can be based in or out of the Classrooms, the use of
+                                computers and the Internet...E-learning definition is defined as providing Training and
+                                development to the Students/Employees through various Electronic media such as the
+                                Internet, audio, video, etc <br> <br>
 
                                 Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
                                 the Internet tend to repeat predefined.</p>
@@ -264,7 +276,49 @@
                             page when looking at its layout.</p>
                     </div>
                     <div class=" d-flex align-items-center ">
-                        <button class="btn btn-light">Register Now</button>
+                        <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#register-modal">Register
+                            Now</button>
+                        <!-- moder section  -->
+
+                        <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="register-modalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="register-modalLabel">Register Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label"> Enter Email
+                                                    address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label"> Choice
+                                                    Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">keep
+                                                    password</label>
+                                            </div>
+                                            
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Register</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -631,28 +685,30 @@
         </div>
     </main>
     <footer class="bg-secondary text-white">
-       <div class="container pt-5">
-        <div class="footer-top text-center">
-            <a href="/" class="text-white "><h1>Learn With Noman</h1> </a>
-            <p class="pb-0">Dinajpur, Rangpur division. <br>Bangladesh </p>
-            <div class="footer-nav d-flex justify-content-center mb-2">
-                <a href="#" class="nav-link mx-2">Privecy Ploicy </a> |
-            <a href="#" class="nav-link mx-2">Terms Of use </a>
+        <div class="container pt-5">
+            <div class="footer-top text-center">
+                <a href="/" class="text-white ">
+                    <h1>Learn With Noman</h1>
+                </a>
+                <p class="pb-0">Dinajpur, Rangpur division. <br>Bangladesh </p>
+                <div class="footer-nav d-flex justify-content-center mb-2">
+                    <a href="#" class="nav-link mx-2">Privecy Ploicy </a> |
+                    <a href="#" class="nav-link mx-2">Terms Of use </a>
+                </div>
+            </div>
+            <div class="social-link text-center">
+                <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-instagram"></i></a>
+                <a href="#" class="text-white "><i class="fa-brands fa-2x fa-linkedin"></i></a>
+                <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-twitter"></i></a>
+                <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-twitter"></i></a>
+                <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-github"></i></a>
+                <a href="#" class="text-white "><i class="fa-brands fa-2x fa-behance"></i></a>
+
+            </div>
+            <div class="copyright text-end mt-3">
+                <p class="m-0">&copy; All right reserved</p>
             </div>
         </div>
-        <div class="social-link text-center">
-            <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-instagram"></i></a>
-            <a href="#" class="text-white "><i class="fa-brands fa-2x fa-linkedin"></i></a>
-            <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-twitter"></i></a>
-            <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-twitter"></i></a>
-            <a href="#" class="text-white "><i class="fa-brands fa-2x fa-square-github"></i></a>
-            <a href="#" class="text-white "><i class="fa-brands fa-2x fa-behance"></i></a>
-
-        </div>
-        <div class="copyright text-end mt-3">
-            <p class="m-0">&copy; All right reserved</p>
-        </div>
-       </div>
     </footer>
 
 
