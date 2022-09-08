@@ -48,8 +48,10 @@ h1{
         
     }
     .carousel-control-next, .carousel-control-prev {
-      
         width: 8%;
+    }
+    #releted-company{
+        display: none;
     }
 }
 @media screen and (max-width:768px) {
@@ -60,5 +62,8 @@ h1{
         width: 95%;
         max-width: 400px !important;
         height:auto;
+    }
+    #releted-company{
+        display: none;
     }
 }
